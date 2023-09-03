@@ -1,0 +1,3801 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mada:wght@200;300;400;500;600;700;800;900&display=swap');
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+body
+{
+    display: flex;
+    padding: 0px 50px;
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(126deg, #F6F4F1 29.06%, #988B76 72.14%);
+    user-select: none;
+    scroll-behavior: smooth;
+}
+
+#header
+{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    align-self: stretch;
+}
+
+#imageArea
+{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo
+{
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+#phraseArea1
+{
+    display: flex;
+    padding: 10px 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+#p1
+{
+    color: #000;
+    font-family: League Spartan;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+}
+
+#contentArea
+{
+    display: flex;
+    height: 460px;
+    align-items: center;
+    align-self: stretch;
+}
+
+#photoArea
+{
+    display: flex;
+    width: 460px;
+    margin-left: 50px;
+    margin-right: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+}
+
+#photoRoundFrame1
+{
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 0;
+    align-self: stretch;
+    border-radius: 250px;
+    border: 0px solid #000;
+    background: linear-gradient(136deg, #D2BB8E 24.73%, #F86B6B 107.03%);
+}
+
+#photoRoundFrame2
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 0;
+    align-self: stretch;
+    border-radius: 250px;
+    border: 0px solid #000;
+    background: #FFF;
+    overflow: hidden;
+}
+
+#dp
+{
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+#detailArea
+{
+    display: flex;
+    padding: 75px 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+#p2
+{
+    align-self: stretch;
+    color: #000;
+    font-family: League Spartan;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+}
+
+#p3
+{
+    align-self: stretch;
+    color: #000;
+    font-family: League Spartan;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+}
+
+#p4
+{
+    align-self: stretch;
+    color: #000;
+    font-family: League Spartan;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+}
+
+#hire
+{
+    display: flex;
+    padding: 100px 300px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+}
+
+#p5
+{
+    align-self: stretch;
+    color: #000;
+    text-align: center;
+    font-family: League Spartan;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+}
+
+#buttonArea1
+{
+    display: flex;
+    height: 152px;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+}
+
+#button1
+{
+    display: flex;
+    padding: 20px 60px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background: linear-gradient(107deg, #D2BB8E 38.04%, #F86B6B 85.95%);
+    cursor: pointer;
+}
+
+#button1:hover
+{
+    display: flex;
+    padding: 20px 60px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background: linear-gradient(253deg, #D2BB8E 38.04%, #F86B6B 85.95%);
+    cursor: pointer;
+}
+
+#p6
+{
+    color: #FFF;
+    font-family: Mada;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+}
+
+#about
+{
+    display: flex;
+    padding: 75px 75px 20px 75px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+    align-self: stretch;
+}
+
+#p7
+{
+    align-self: stretch;
+    color: #000;
+    font-family: Mada;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+}
+
+#p8
+{
+    align-self: stretch;
+    color: #000;
+    font-family: Mada;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+}
+
+#sae
+{
+    display: flex;
+    padding: 75px 75px 20px 75px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+    align-self: stretch;
+}
+
+#p9
+{
+    align-self: stretch;
+    color: #000;
+    font-family: Mada;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+}
+
+#set1
+{
+    display: flex;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.d
+{
+    display: flex;
+    padding: 50px 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+.p10
+{
+    color: #000;
+    font-family: Mada;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+}
+
+.p11
+{
+    align-self: stretch;
+    color: #000;
+    font-family: Mada;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+}
+
+#proj
+{
+    display: flex;
+    padding: 50px 75px 20px 75px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+    align-self: stretch;
+}
+
+#p12
+{
+    align-self: stretch;
+    color: #000;
+    font-family: Mada;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+}
+
+.programs
+{
+    display: flex;
+    padding: 50px 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.p13
+{
+    align-self: stretch;
+    color: #000;
+    font-family: Mada;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+}
+
+#res
+{
+    display: flex;
+    padding: 75px 75px 20px 75px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+    align-self: stretch;
+}
+
+#p14
+{
+    align-self: stretch;
+    color: #000;
+    font-family: Mada;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+}
+
+#resDet
+{
+    display: flex;
+    padding: 50px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 75px;
+    align-self: stretch;
+}
+
+.Det
+{
+    display: flex;
+    padding: 0px 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+}
+
+.p15
+{
+    align-self: stretch;
+    color: #000;
+    font-family: Mada;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+}
+
+.p16
+{
+    align-self: stretch;
+    color: #000;
+    font-family: Mada;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+}
+
+.unli
+{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#resDownloadArea
+{
+    display: flex;
+    padding: 50px 0px;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+}
+
+#downloadButton
+{
+    display: flex;
+    padding: 20px 60px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background: linear-gradient(107deg, #D2BB8E 38.04%, #F86B6B 85.95%);
+    cursor: pointer;
+}
+
+#downloadButton:hover
+{
+    display: flex;
+    padding: 20px 60px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background: linear-gradient(253deg, #D2BB8E 38.04%, #F86B6B 85.95%);
+    cursor: pointer;
+}
+
+#p17
+{
+    color: #FFF;
+    font-family: Mada;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+}
+
+#contactFooter
+{
+    display: flex;
+    padding: 50px 75px;
+    flex-direction: column;
+    align-items: center;
+    align-self: stretch;
+}
+
+#contact
+{
+    display: flex;
+    padding: 50px 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    align-self: stretch;
+}
+
+#p18
+{
+    align-self: stretch;
+    color: #000;
+    font-family: Mada;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+}
+
+.info
+{
+    display: flex;
+    padding: 0px 50px;
+    align-items: center;
+    gap: 30px;
+    align-self: stretch;
+}
+
+.infoLogo1
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.p19
+{
+    flex: 1 0 0;
+    color: #000;
+    font-family: Mada;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+}
+
+.infoLogo2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#footer
+{
+    display: flex;
+    padding: 50px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    align-self: stretch;
+}
+
+.p20
+{
+    align-self: stretch;
+    color: #000;
+    font-family: Mada;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+}
+
+.vidArea
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+}
+
+.vid
+{
+    display: flex;
+    width: 960px;
+    height: 540px;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.p21
+{
+    align-self: stretch;
+    color: #000;
+    font-family: Mada;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.sv
+{
+    width: 48px;
+    height: auto;
+}
+
+@media only screen and (max-width: 1200px)
+{
+    body
+    {
+        display: flex;
+        padding: 0px 20px;
+        margin: 0;
+        flex-direction: column;
+        align-items: center;
+        background: linear-gradient(126deg, #F6F4F1 29.06%, #988B76 72.14%);
+        user-select: none;
+        scroll-behavior: smooth;
+    }
+
+    #header
+    {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        align-self: stretch;
+    }
+
+    #imageArea
+    {
+        display: flex;
+        width: 200px;
+        height: 200px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #logo
+    {
+        flex: 1 0 0;
+        align-self: stretch;
+    }
+
+    #phraseArea1
+    {
+        display: flex;
+        padding: 10px 30px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+        flex: 1 0 0;
+        align-self: stretch;
+    }
+
+    #p1
+    {
+        color: #000;
+        font-family: League Spartan;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    #contentArea
+    {
+        display: flex;
+        height: 300px;
+        align-items: center;
+        align-self: stretch;
+    }
+
+    #photoArea
+    {
+        display: flex;
+        width: 300px;
+        margin-left: 50px;
+        margin-right: 50px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-self: stretch;
+    }
+
+    #photoRoundFrame1
+    {
+        display: flex;
+        padding: 15px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex: 1 0 0;
+        align-self: stretch;
+        border-radius: 250px;
+        border: 0px solid #000;
+        background: linear-gradient(136deg, #D2BB8E 24.73%, #F86B6B 107.03%);
+    }
+
+    #photoRoundFrame2
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex: 1 0 0;
+        align-self: stretch;
+        border-radius: 250px;
+        border: 0px solid #000;
+        background: #FFF;
+        overflow: hidden;
+    }
+
+    #dp
+    {
+        flex: 1 0 0;
+        align-self: stretch;
+    }
+
+    #detailArea
+    {
+        display: flex;
+        padding: 75px 50px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 20px;
+        flex: 1 0 0;
+        align-self: stretch;
+    }
+
+    #p2
+    {
+        align-self: stretch;
+        color: #000;
+        font-family: League Spartan;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    #p3
+    {
+        align-self: stretch;
+        color: #000;
+        font-family: League Spartan;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    #p4
+    {
+        align-self: stretch;
+        color: #000;
+        font-family: League Spartan;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    #hire
+    {
+        display: flex;
+        padding: 50px 100px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-self: stretch;
+    }
+
+    #p5
+    {
+        align-self: stretch;
+        color: #000;
+        text-align: center;
+        font-family: League Spartan;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    #buttonArea1
+    {
+        display: flex;
+        height: 152px;
+        justify-content: center;
+        align-items: center;
+        align-self: stretch;
+    }
+
+    #button1
+    {
+        display: flex;
+        padding: 20px 60px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        background: linear-gradient(107deg, #D2BB8E 38.04%, #F86B6B 85.95%);
+        cursor: pointer;
+    }
+
+    #button1:hover
+    {
+        display: flex;
+        padding: 20px 60px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        background: linear-gradient(253deg, #D2BB8E 38.04%, #F86B6B 85.95%);
+        cursor: pointer;
+    }
+
+    #p6
+    {
+        color: #FFF;
+        font-family: Mada;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    #about
+    {
+        display: flex;
+        padding: 20px 75px 20px 75px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 25px;
+        align-self: stretch;
+    }
+
+    #p7
+    {
+        align-self: stretch;
+        color: #000;
+        font-family: Mada;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    #p8
+    {
+        align-self: stretch;
+        color: #000;
+        font-family: Mada;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    #sae
+    {
+        display: flex;
+        padding: 75px 75px 20px 75px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        align-self: stretch;
+    }
+
+    #p9
+    {
+        align-self: stretch;
+        color: #000;
+        font-family: Mada;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    #set1
+    {
+        display: flex;
+        align-items: flex-start;
+        align-self: stretch;
+    }
+
+    .d
+    {
+        display: flex;
+        padding: 20px 20px;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        flex: 1 0 0;
+        align-self: stretch;
+    }
+
+    .p10
+    {
+        color: #000;
+        font-family: Mada;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    .p11
+    {
+        align-self: stretch;
+        color: #000;
+        font-family: Mada;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    #proj
+    {
+        display: flex;
+        padding: 20px 75px 20px 75px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        align-self: stretch;
+    }
+
+    #p12
+    {
+        align-self: stretch;
+        color: #000;
+        font-family: Mada;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    .programs
+    {
+        display: flex;
+        padding: 20px 0px;
+        flex-direction: column;
+        align-items: flex-start;
+        align-self: stretch;
+    }
+
+    .p13
+    {
+        align-self: stretch;
+        color: #000;
+        font-family: Mada;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    #res
+    {
+        display: flex;
+        padding: 20px 75px 20px 75px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        align-self: stretch;
+    }
+
+    #p14
+    {
+        align-self: stretch;
+        color: #000;
+        font-family: Mada;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    #resDet
+    {
+        display: flex;
+        padding: 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        align-self: stretch;
+    }
+
+    .Det
+    {
+        display: flex;
+        padding: 0px 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        align-self: stretch;
+    }
+
+    .p15
+    {
+        align-self: stretch;
+        color: #000;
+        font-family: Mada;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    .p16
+    {
+        align-self: stretch;
+        color: #000;
+        font-family: Mada;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    .unli
+    {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    #resDownloadArea
+    {
+        display: flex;
+        padding: 20px 0px;
+        justify-content: center;
+        align-items: center;
+        align-self: stretch;
+    }
+
+    #downloadButton
+    {
+        display: flex;
+        padding: 20px 60px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        background: linear-gradient(107deg, #D2BB8E 38.04%, #F86B6B 85.95%);
+        cursor: pointer;
+    }
+
+    #downloadButton:hover
+    {
+        display: flex;
+        padding: 20px 60px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        background: linear-gradient(253deg, #D2BB8E 38.04%, #F86B6B 85.95%);
+        cursor: pointer;
+    }
+
+    #p17
+    {
+        color: #FFF;
+        font-family: Mada;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    #contactFooter
+    {
+        display: flex;
+        padding: 20px 20px;
+        flex-direction: column;
+        align-items: center;
+        align-self: stretch;
+    }
+
+    #contact
+    {
+        display: flex;
+        padding: 50px 0px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        align-self: stretch;
+    }
+
+    #p18
+    {
+        align-self: stretch;
+        color: #000;
+        font-family: Mada;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    .info
+    {
+        display: flex;
+        padding: 0px 50px;
+        align-items: center;
+        gap: 30px;
+        align-self: stretch;
+    }
+
+    .infoLogo1
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .p19
+    {
+        flex: 1 0 0;
+        color: #000;
+        font-family: Mada;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    .infoLogo2
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    #footer
+    {
+        display: flex;
+        padding: 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        align-self: stretch;
+    }
+
+    .p20
+    {
+        align-self: stretch;
+        color: #000;
+        font-family: Mada;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    .vidArea
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-self: stretch;
+    }
+
+    .vid
+    {
+        display: flex;
+        width: 480px;
+        height: 270px;
+        padding: 10px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .p21
+    {
+        align-self: stretch;
+        color: #000;
+        font-family: Mada;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .sv
+    {
+        width: 30px;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 1000px)
+{
+    body
+    {
+        display: flex;
+        padding: 0px 20px;
+        margin: 0;
+        flex-direction: column;
+        align-items: center;
+        background: linear-gradient(126deg, #F6F4F1 29.06%, #988B76 72.14%);
+        user-select: none;
+        scroll-behavior: smooth;
+    }
+
+    #header
+    {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        align-self: stretch;
+    }
+
+    #imageArea
+    {
+        display: flex;
+        width: 200px;
+        height: 200px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #logo
+    {
+        flex: 1 0 0;
+        align-self: stretch;
+    }
+
+    #phraseArea1
+    {
+        display: flex;
+        padding: 10px 30px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+        flex: 1 0 0;
+        align-self: stretch;
+    }
+
+    #p1
+    {
+        color: #000;
+        font-family: League Spartan;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    #contentArea
+    {
+        display: flex;
+        flex-direction: column;
+        height: 530px;
+        align-items: center;
+        align-self: stretch;
+    }
+
+    #photoArea
+    {
+        display: flex;
+        width: 300px;
+        height: 300px;
+        margin-left: 0px;
+        margin-right: 0px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-self: stretch;
+    }
+
+    #photoRoundFrame1
+    {
+        display: flex;
+        padding: 15px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex: 1 0 0;
+        align-self: stretch;
+        border-radius: 1000px;
+        border: 0px solid #000;
+        background: linear-gradient(136deg, #D2BB8E 24.73%, #F86B6B 107.03%);
+    }
+
+    #photoRoundFrame2
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex: 1 0 0;
+        align-self: stretch;
+        border-radius: 1000px;
+        border: 0px solid #000;
+        background: #FFF;
+        overflow: hidden;
+    }
+
+    #dp
+    {
+        flex: 1 0 0;
+        align-self: stretch;
+    }
+
+    #detailArea
+    {
+        display: flex;
+        padding: 20px 20px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 20px;
+        flex: 1 0 0;
+        align-self: stretch;
+    }
+
+    #p2
+    {
+        align-self: stretch;
+        color: #000;
+        font-family: League Spartan;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    #p3
+    {
+        align-self: stretch;
+        color: #000;
+        font-family: League Spartan;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    #p4
+    {
+        align-self: stretch;
+        color: #000;
+        font-family: League Spartan;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    #hire
+    {
+        display: flex;
+        padding: 20px 20px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-self: stretch;
+    }
+
+    #p5
+    {
+        align-self: stretch;
+        color: #000;
+        text-align: center;
+        font-family: League Spartan;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    #buttonArea1
+    {
+        display: flex;
+        height: 152px;
+        justify-content: center;
+        align-items: center;
+        align-self: stretch;
+    }
+
+    #button1
+    {
+        display: flex;
+        padding: 20px 60px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        background: linear-gradient(107deg, #D2BB8E 38.04%, #F86B6B 85.95%);
+        cursor: pointer;
+    }
+
+    #button1:hover
+    {
+        display: flex;
+        padding: 20px 60px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        background: linear-gradient(253deg, #D2BB8E 38.04%, #F86B6B 85.95%);
+        cursor: pointer;
+    }
+
+    #p6
+    {
+        color: #FFF;
+        font-family: Mada;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    #about
+    {
+        display: flex;
+        padding: 20px 20px 20px 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 25px;
+        align-self: stretch;
+    }
+
+    #p7
+    {
+        align-self: stretch;
+        color: #000;
+        font-family: Mada;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    #p8
+    {
+        align-self: stretch;
+        color: #000;
+        font-family: Mada;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    #sae
+    {
+        display: flex;
+        padding: 20px 20px 20px 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        align-self: stretch;
+    }
+
+    #p9
+    {
+        align-self: stretch;
+        color: #000;
+        font-family: Mada;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    #set1
+    {
+        display: flex;
+        align-items: flex-start;
+        align-self: stretch;
+    }
+
+    .d
+    {
+        display: flex;
+        padding: 20px 20px;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        flex: 1 0 0;
+        align-self: stretch;
+    }
+
+    .p10
+    {
+        color: #000;
+        font-family: Mada;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    .p11
+    {
+        align-self: stretch;
+        color: #000;
+        font-family: Mada;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    #proj
+    {
+        display: flex;
+        padding: 20px 20px 20px 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        align-self: stretch;
+    }
+
+    #p12
+    {
+        align-self: stretch;
+        color: #000;
+        font-family: Mada;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    .programs
+    {
+        display: flex;
+        padding: 20px 0px;
+        flex-direction: column;
+        align-items: flex-start;
+        align-self: stretch;
+    }
+
+    .p13
+    {
+        align-self: stretch;
+        color: #000;
+        font-family: Mada;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    #res
+    {
+        display: flex;
+        padding: 20px 20px 20px 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        align-self: stretch;
+    }
+
+    #p14
+    {
+        align-self: stretch;
+        color: #000;
+        font-family: Mada;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    #resDet
+    {
+        display: flex;
+        padding: 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        align-self: stretch;
+    }
+
+    .Det
+    {
+        display: flex;
+        padding: 0px 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        align-self: stretch;
+    }
+
+    .p15
+    {
+        align-self: stretch;
+        color: #000;
+        font-family: Mada;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    .p16
+    {
+        align-self: stretch;
+        color: #000;
+        font-family: Mada;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    .unli
+    {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    #resDownloadArea
+    {
+        display: flex;
+        padding: 20px 0px;
+        justify-content: center;
+        align-items: center;
+        align-self: stretch;
+    }
+
+    #downloadButton
+    {
+        display: flex;
+        padding: 20px 60px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        background: linear-gradient(107deg, #D2BB8E 38.04%, #F86B6B 85.95%);
+        cursor: pointer;
+    }
+
+    #downloadButton:hover
+    {
+        display: flex;
+        padding: 20px 60px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        background: linear-gradient(253deg, #D2BB8E 38.04%, #F86B6B 85.95%);
+        cursor: pointer;
+    }
+
+    #p17
+    {
+        color: #FFF;
+        font-family: Mada;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    #contactFooter
+    {
+        display: flex;
+        padding: 20px 20px;
+        flex-direction: column;
+        align-items: center;
+        align-self: stretch;
+    }
+
+    #contact
+    {
+        display: flex;
+        padding: 50px 0px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        align-self: stretch;
+    }
+
+    #p18
+    {
+        align-self: stretch;
+        color: #000;
+        font-family: Mada;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    .info
+    {
+        display: flex;
+        padding: 0px 50px;
+        align-items: center;
+        gap: 30px;
+        align-self: stretch;
+    }
+
+    .infoLogo1
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .p19
+    {
+        flex: 1 0 0;
+        color: #000;
+        font-family: Mada;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    .infoLogo2
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    #footer
+    {
+        display: flex;
+        padding: 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        align-self: stretch;
+    }
+
+    .p20
+    {
+        align-self: stretch;
+        color: #000;
+        font-family: Mada;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    .vidArea
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-self: stretch;
+    }
+
+    .vid
+    {
+        display: flex;
+        width: 480px;
+        height: 270px;
+        padding: 10px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .p21
+    {
+        align-self: stretch;
+        color: #000;
+        font-family: Mada;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .sv
+    {
+        width: 30px;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 800px)
+{
+    body
+    {
+        display: flex;
+        padding: 0px 20px;
+        margin: 0;
+        flex-direction: column;
+        align-items: center;
+        background: linear-gradient(126deg, #F6F4F1 29.06%, #988B76 72.14%);
+        user-select: none;
+        scroll-behavior: smooth;
+    }
+
+    #header
+    {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        align-self: stretch;
+    }
+
+    #imageArea
+    {
+        display: flex;
+        width: 100px;
+        height: 100px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #logo
+    {
+        flex: 1 0 0;
+        align-self: stretch;
+    }
+
+    #phraseArea1
+    {
+        display: flex;
+        padding: 10px 30px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+        flex: 1 0 0;
+        align-self: stretch;
+    }
+
+    #p1
+    {
+        color: #000;
+        font-family: League Spartan;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    #contentArea
+    {
+        display: flex;
+        flex-direction: column;
+        height: 530px;
+        align-items: center;
+        align-self: stretch;
+    }
+
+    #photoArea
+    {
+        display: flex;
+        width: 300px;
+        height: 300px;
+        margin-left: 0px;
+        margin-right: 0px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-self: stretch;
+    }
+
+    #photoRoundFrame1
+    {
+        display: flex;
+        padding: 15px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex: 1 0 0;
+        align-self: stretch;
+        border-radius: 1000px;
+        border: 0px solid #000;
+        background: linear-gradient(136deg, #D2BB8E 24.73%, #F86B6B 107.03%);
+    }
+
+    #photoRoundFrame2
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex: 1 0 0;
+        align-self: stretch;
+        border-radius: 1000px;
+        border: 0px solid #000;
+        background: #FFF;
+        overflow: hidden;
+    }
+
+    #dp
+    {
+        flex: 1 0 0;
+        align-self: stretch;
+    }
+
+    #detailArea
+    {
+        display: flex;
+        padding: 20px 20px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 20px;
+        flex: 1 0 0;
+        align-self: stretch;
+    }
+
+    #p2
+    {
+        align-self: stretch;
+        color: #000;
+        font-family: League Spartan;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    #p3
+    {
+        align-self: stretch;
+        color: #000;
+        font-family: League Spartan;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    #p4
+    {
+        align-self: stretch;
+        color: #000;
+        font-family: League Spartan;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    #hire
+    {
+        display: flex;
+        padding: 20px 20px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-self: stretch;
+    }
+
+    #p5
+    {
+        align-self: stretch;
+        color: #000;
+        text-align: center;
+        font-family: League Spartan;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    #buttonArea1
+    {
+        display: flex;
+        height: 152px;
+        justify-content: center;
+        align-items: center;
+        align-self: stretch;
+    }
+
+    #button1
+    {
+        display: flex;
+        padding: 20px 60px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        background: linear-gradient(107deg, #D2BB8E 38.04%, #F86B6B 85.95%);
+        cursor: pointer;
+    }
+
+    #button1:hover
+    {
+        display: flex;
+        padding: 20px 60px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        background: linear-gradient(253deg, #D2BB8E 38.04%, #F86B6B 85.95%);
+        cursor: pointer;
+    }
+
+    #p6
+    {
+        color: #FFF;
+        font-family: Mada;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    #about
+    {
+        display: flex;
+        padding: 20px 20px 20px 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 25px;
+        align-self: stretch;
+    }
+
+    #p7
+    {
+        align-self: stretch;
+        color: #000;
+        font-family: Mada;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    #p8
+    {
+        align-self: stretch;
+        color: #000;
+        font-family: Mada;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    #sae
+    {
+        display: flex;
+        padding: 20px 20px 20px 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        align-self: stretch;
+    }
+
+    #p9
+    {
+        align-self: stretch;
+        color: #000;
+        font-family: Mada;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    #set1
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        align-self: stretch;
+    }
+
+    .d
+    {
+        display: flex;
+        padding: 20px 20px;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        flex: 1 0 0;
+        align-self: stretch;
+    }
+
+    .p10
+    {
+        color: #000;
+        font-family: Mada;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    .p11
+    {
+        align-self: stretch;
+        color: #000;
+        font-family: Mada;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    #proj
+    {
+        display: flex;
+        padding: 20px 20px 20px 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        align-self: stretch;
+    }
+
+    #p12
+    {
+        align-self: stretch;
+        color: #000;
+        font-family: Mada;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    .programs
+    {
+        display: flex;
+        padding: 20px 0px;
+        flex-direction: column;
+        align-items: flex-start;
+        align-self: stretch;
+    }
+
+    .p13
+    {
+        align-self: stretch;
+        color: #000;
+        font-family: Mada;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    #res
+    {
+        display: flex;
+        padding: 20px 20px 20px 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        align-self: stretch;
+    }
+
+    #p14
+    {
+        align-self: stretch;
+        color: #000;
+        font-family: Mada;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    #resDet
+    {
+        display: flex;
+        padding: 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        align-self: stretch;
+    }
+
+    .Det
+    {
+        display: flex;
+        padding: 0px 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        align-self: stretch;
+    }
+
+    .p15
+    {
+        align-self: stretch;
+        color: #000;
+        font-family: Mada;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    .p16
+    {
+        align-self: stretch;
+        color: #000;
+        font-family: Mada;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    .unli
+    {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    #resDownloadArea
+    {
+        display: flex;
+        padding: 20px 0px;
+        justify-content: center;
+        align-items: center;
+        align-self: stretch;
+    }
+
+    #downloadButton
+    {
+        display: flex;
+        padding: 20px 60px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        background: linear-gradient(107deg, #D2BB8E 38.04%, #F86B6B 85.95%);
+        cursor: pointer;
+    }
+
+    #downloadButton:hover
+    {
+        display: flex;
+        padding: 20px 60px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        background: linear-gradient(253deg, #D2BB8E 38.04%, #F86B6B 85.95%);
+        cursor: pointer;
+    }
+
+    #p17
+    {
+        color: #FFF;
+        font-family: Mada;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    #contactFooter
+    {
+        display: flex;
+        padding: 20px 20px;
+        flex-direction: column;
+        align-items: center;
+        align-self: stretch;
+    }
+
+    #contact
+    {
+        display: flex;
+        padding: 20px 0px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        align-self: stretch;
+    }
+
+    #p18
+    {
+        align-self: stretch;
+        color: #000;
+        font-family: Mada;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    .info
+    {
+        display: flex;
+        padding: 0px 50px;
+        align-items: center;
+        gap: 10px;
+        align-self: stretch;
+    }
+
+    .infoLogo1
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .p19
+    {
+        flex: 1 0 0;
+        color: #000;
+        font-family: Mada;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    .infoLogo2
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    #footer
+    {
+        display: flex;
+        padding: 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        align-self: stretch;
+    }
+
+    .p20
+    {
+        align-self: stretch;
+        color: #000;
+        font-family: Mada;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    .vidArea
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-self: stretch;
+    }
+
+    .vid
+    {
+        display: flex;
+        width: 480px;
+        height: 270px;
+        padding: 10px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .p21
+    {
+        align-self: stretch;
+        color: #000;
+        font-family: Mada;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .sv
+    {
+        width: 20px;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 600px)
+{
+    body
+    {
+        display: flex;
+        padding: 0px 20px;
+        margin: 0;
+        flex-direction: column;
+        align-items: center;
+        background: linear-gradient(126deg, #F6F4F1 29.06%, #988B76 72.14%);
+        user-select: none;
+        scroll-behavior: smooth;
+    }
+
+    #header
+    {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        align-self: stretch;
+    }
+
+    #imageArea
+    {
+        display: flex;
+        width: 100px;
+        height: 100px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #logo
+    {
+        flex: 1 0 0;
+        align-self: stretch;
+    }
+
+    #phraseArea1
+    {
+        display: flex;
+        padding: 10px 30px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+        flex: 1 0 0;
+        align-self: stretch;
+    }
+
+    #p1
+    {
+        color: #000;
+        font-family: League Spartan;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    #contentArea
+    {
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+        align-items: center;
+        align-self: stretch;
+    }
+
+    #photoArea
+    {
+        display: flex;
+        width: 200px;
+        height: 200px;
+        margin-left: 0px;
+        margin-right: 0px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-self: stretch;
+    }
+
+    #photoRoundFrame1
+    {
+        display: flex;
+        padding: 10px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex: 1 0 0;
+        align-self: stretch;
+        border-radius: 1000px;
+        border: 0px solid #000;
+        background: linear-gradient(136deg, #D2BB8E 24.73%, #F86B6B 107.03%);
+    }
+
+    #photoRoundFrame2
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex: 1 0 0;
+        align-self: stretch;
+        border-radius: 1000px;
+        border: 0px solid #000;
+        background: #FFF;
+        overflow: hidden;
+    }
+
+    #dp
+    {
+        flex: 1 0 0;
+        align-self: stretch;
+    }
+
+    #detailArea
+    {
+        display: flex;
+        padding: 20px 20px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 20px;
+        flex: 1 0 0;
+        align-self: stretch;
+    }
+
+    #p2
+    {
+        align-self: stretch;
+        color: #000;
+        font-family: League Spartan;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    #p3
+    {
+        align-self: stretch;
+        color: #000;
+        font-family: League Spartan;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    #p4
+    {
+        align-self: stretch;
+        color: #000;
+        font-family: League Spartan;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    #hire
+    {
+        display: flex;
+        padding: 20px 20px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-self: stretch;
+    }
+
+    #p5
+    {
+        align-self: stretch;
+        color: #000;
+        text-align: center;
+        font-family: League Spartan;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    #buttonArea1
+    {
+        display: flex;
+        height: 80px;
+        justify-content: center;
+        align-items: center;
+        align-self: stretch;
+    }
+
+    #button1
+    {
+        display: flex;
+        padding: 10px 40px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        background: linear-gradient(107deg, #D2BB8E 38.04%, #F86B6B 85.95%);
+        cursor: pointer;
+    }
+
+    #button1:hover
+    {
+        display: flex;
+        padding: 10px 40px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        background: linear-gradient(253deg, #D2BB8E 38.04%, #F86B6B 85.95%);
+        cursor: pointer;
+    }
+
+    #p6
+    {
+        color: #FFF;
+        font-family: Mada;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    #about
+    {
+        display: flex;
+        padding: 20px 20px 20px 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        align-self: stretch;
+    }
+
+    #p7
+    {
+        align-self: stretch;
+        color: #000;
+        font-family: Mada;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    #p8
+    {
+        align-self: stretch;
+        color: #000;
+        font-family: Mada;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    #sae
+    {
+        display: flex;
+        padding: 20px 20px 20px 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        align-self: stretch;
+    }
+
+    #p9
+    {
+        align-self: stretch;
+        color: #000;
+        font-family: Mada;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    #set1
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        align-self: stretch;
+    }
+
+    .d
+    {
+        display: flex;
+        padding: 20px 0px;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        flex: 1 0 0;
+        align-self: stretch;
+    }
+
+    .p10
+    {
+        color: #000;
+        font-family: Mada;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    .p11
+    {
+        align-self: stretch;
+        color: #000;
+        font-family: Mada;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    #proj
+    {
+        display: flex;
+        padding: 20px 20px 20px 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        align-self: stretch;
+    }
+
+    #p12
+    {
+        align-self: stretch;
+        color: #000;
+        font-family: Mada;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    .programs
+    {
+        display: flex;
+        padding: 0px 0px;
+        flex-direction: column;
+        align-items: flex-start;
+        align-self: stretch;
+    }
+
+    .p13
+    {
+        align-self: stretch;
+        color: #000;
+        font-family: Mada;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    #res
+    {
+        display: flex;
+        padding: 20px 20px 20px 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        align-self: stretch;
+    }
+
+    #p14
+    {
+        align-self: stretch;
+        color: #000;
+        font-family: Mada;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    #resDet
+    {
+        display: flex;
+        padding: 0px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        align-self: stretch;
+    }
+
+    .Det
+    {
+        display: flex;
+        padding: 0px 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+        align-self: stretch;
+    }
+
+    .p15
+    {
+        align-self: stretch;
+        color: #000;
+        font-family: Mada;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    .p16
+    {
+        align-self: stretch;
+        color: #000;
+        font-family: Mada;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    .unli
+    {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    #resDownloadArea
+    {
+        display: flex;
+        padding: 0px 0px;
+        justify-content: center;
+        align-items: center;
+        align-self: stretch;
+    }
+
+    #downloadButton
+    {
+        display: flex;
+        padding: 10px 30px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        background: linear-gradient(107deg, #D2BB8E 38.04%, #F86B6B 85.95%);
+        cursor: pointer;
+    }
+
+    #downloadButton:hover
+    {
+        display: flex;
+        padding: 10px 30px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        background: linear-gradient(253deg, #D2BB8E 38.04%, #F86B6B 85.95%);
+        cursor: pointer;
+    }
+
+    #p17
+    {
+        color: #FFF;
+        font-family: Mada;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    #contactFooter
+    {
+        display: flex;
+        padding: 20px 20px;
+        flex-direction: column;
+        align-items: center;
+        align-self: stretch;
+    }
+
+    #contact
+    {
+        display: flex;
+        padding: 0px 0px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        align-self: stretch;
+    }
+
+    #p18
+    {
+        align-self: stretch;
+        color: #000;
+        font-family: Mada;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    .info
+    {
+        display: flex;
+        padding: 0px 20px;
+        align-items: center;
+        gap: 10px;
+        align-self: stretch;
+    }
+
+    .infoLogo1
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .p19
+    {
+        flex: 1 0 0;
+        color: #000;
+        font-family: Mada;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    .infoLogo2
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    #footer
+    {
+        display: flex;
+        padding: 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        align-self: stretch;
+    }
+
+    .p20
+    {
+        align-self: stretch;
+        color: #000;
+        font-family: Mada;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    .vidArea
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-self: stretch;
+    }
+
+    .vid
+    {
+        display: flex;
+        width: 240px;
+        height: 135px;
+        padding: 10px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .p21
+    {
+        align-self: stretch;
+        color: #000;
+        font-family: Mada;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .sv
+    {
+        width: 20px;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 400px)
+{
+    body
+    {
+        display: flex;
+        padding: 0px 20px;
+        margin: 0;
+        flex-direction: column;
+        align-items: center;
+        background: linear-gradient(126deg, #F6F4F1 29.06%, #988B76 72.14%);
+        user-select: none;
+        scroll-behavior: smooth;
+    }
+
+    #header
+    {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        align-self: stretch;
+    }
+
+    #imageArea
+    {
+        display: flex;
+        width: 50px;
+        height: 50px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #logo
+    {
+        flex: 1 0 0;
+        align-self: stretch;
+    }
+
+    #phraseArea1
+    {
+        display: flex;
+        padding: 10px 10px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+        flex: 1 0 0;
+        align-self: stretch;
+    }
+
+    #p1
+    {
+        color: #000;
+        font-family: League Spartan;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    #contentArea
+    {
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+        align-items: center;
+        align-self: stretch;
+    }
+
+    #photoArea
+    {
+        display: flex;
+        width: 150px;
+        height: 150px;
+        margin-left: 0px;
+        margin-right: 0px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-self: stretch;
+    }
+
+    #photoRoundFrame1
+    {
+        display: flex;
+        padding: 5px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex: 1 0 0;
+        align-self: stretch;
+        border-radius: 1000px;
+        border: 0px solid #000;
+        background: linear-gradient(136deg, #D2BB8E 24.73%, #F86B6B 107.03%);
+    }
+
+    #photoRoundFrame2
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex: 1 0 0;
+        align-self: stretch;
+        border-radius: 1000px;
+        border: 0px solid #000;
+        background: #FFF;
+        overflow: hidden;
+    }
+
+    #dp
+    {
+        flex: 1 0 0;
+        align-self: stretch;
+    }
+
+    #detailArea
+    {
+        display: flex;
+        padding: 10px 0px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+        flex: 1 0 0;
+        align-self: stretch;
+    }
+
+    #p2
+    {
+        align-self: stretch;
+        color: #000;
+        font-family: League Spartan;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    #p3
+    {
+        align-self: stretch;
+        color: #000;
+        font-family: League Spartan;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    #p4
+    {
+        align-self: stretch;
+        color: #000;
+        font-family: League Spartan;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    #hire
+    {
+        display: flex;
+        padding: 0px 0px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-self: stretch;
+    }
+
+    #p5
+    {
+        align-self: stretch;
+        color: #000;
+        text-align: center;
+        font-family: League Spartan;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    #buttonArea1
+    {
+        display: flex;
+        height: 50px;
+        justify-content: center;
+        align-items: center;
+        align-self: stretch;
+    }
+
+    #button1
+    {
+        display: flex;
+        padding: 5px 20px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        background: linear-gradient(107deg, #D2BB8E 38.04%, #F86B6B 85.95%);
+        cursor: pointer;
+    }
+
+    #button1:hover
+    {
+        display: flex;
+        padding: 5px 20px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        background: linear-gradient(253deg, #D2BB8E 38.04%, #F86B6B 85.95%);
+        cursor: pointer;
+    }
+
+    #p6
+    {
+        color: #FFF;
+        font-family: Mada;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    #about
+    {
+        display: flex;
+        padding: 10px 0px 10px 0px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        align-self: stretch;
+    }
+
+    #p7
+    {
+        align-self: stretch;
+        color: #000;
+        font-family: Mada;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    #p8
+    {
+        align-self: stretch;
+        color: #000;
+        font-family: Mada;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    #sae
+    {
+        display: flex;
+        padding: 10px 0px 10px 0px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        align-self: stretch;
+    }
+
+    #p9
+    {
+        align-self: stretch;
+        color: #000;
+        font-family: Mada;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    #set1
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        align-self: stretch;
+    }
+
+    .d
+    {
+        display: flex;
+        padding: 10px 0px;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        flex: 1 0 0;
+        align-self: stretch;
+    }
+
+    .p10
+    {
+        color: #000;
+        font-family: Mada;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    .p11
+    {
+        align-self: stretch;
+        color: #000;
+        font-family: Mada;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    #proj
+    {
+        display: flex;
+        padding: 10px 0px 10px 0px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        align-self: stretch;
+    }
+
+    #p12
+    {
+        align-self: stretch;
+        color: #000;
+        font-family: Mada;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    .programs
+    {
+        display: flex;
+        padding: 0px 0px;
+        flex-direction: column;
+        align-items: flex-start;
+        align-self: stretch;
+    }
+
+    .p13
+    {
+        align-self: stretch;
+        color: #000;
+        font-family: Mada;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    #res
+    {
+        display: flex;
+        padding: 10px 0px 10px 0px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        align-self: stretch;
+    }
+
+    #p14
+    {
+        align-self: stretch;
+        color: #000;
+        font-family: Mada;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    #resDet
+    {
+        display: flex;
+        padding: 0px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        align-self: stretch;
+    }
+
+    .Det
+    {
+        display: flex;
+        padding: 0px 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+        align-self: stretch;
+    }
+
+    .p15
+    {
+        align-self: stretch;
+        color: #000;
+        font-family: Mada;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    .p16
+    {
+        align-self: stretch;
+        color: #000;
+        font-family: Mada;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    .unli
+    {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    #resDownloadArea
+    {
+        display: flex;
+        padding: 0px 0px;
+        justify-content: center;
+        align-items: center;
+        align-self: stretch;
+    }
+
+    #downloadButton
+    {
+        display: flex;
+        padding: 5px 15px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        background: linear-gradient(107deg, #D2BB8E 38.04%, #F86B6B 85.95%);
+        cursor: pointer;
+    }
+
+    #downloadButton:hover
+    {
+        display: flex;
+        padding: 5px 15px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        background: linear-gradient(253deg, #D2BB8E 38.04%, #F86B6B 85.95%);
+        cursor: pointer;
+    }
+
+    #p17
+    {
+        color: #FFF;
+        font-family: Mada;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    #contactFooter
+    {
+        display: flex;
+        padding: 10px 0px;
+        flex-direction: column;
+        align-items: center;
+        align-self: stretch;
+    }
+
+    #contact
+    {
+        display: flex;
+        padding: 0px 0px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+        align-self: stretch;
+    }
+
+    #p18
+    {
+        align-self: stretch;
+        color: #000;
+        font-family: Mada;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    .info
+    {
+        display: flex;
+        padding: 0px 20px;
+        align-items: center;
+        gap: 5px;
+        align-self: stretch;
+    }
+
+    .infoLogo1
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .p19
+    {
+        flex: 1 0 0;
+        color: #000;
+        font-family: Mada;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    .infoLogo2
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    #footer
+    {
+        display: flex;
+        padding: 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+        align-self: stretch;
+    }
+
+    .p20
+    {
+        align-self: stretch;
+        color: #000;
+        font-family: Mada;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    .vidArea
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-self: stretch;
+    }
+
+    .vid
+    {
+        display: flex;
+        width: 240px;
+        height: 135px;
+        padding: 5px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .p21
+    {
+        align-self: stretch;
+        color: #000;
+        font-family: Mada;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .sv
+    {
+        width: 12px;
+        height: auto;
+    }
+}
